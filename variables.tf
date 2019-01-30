@@ -6,4 +6,4 @@ variable "fingerprint" {}
 
 variable "private_key_path" {}
 
-variable "region" {this is my key}
+variable "region" {}
