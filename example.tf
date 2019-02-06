@@ -27,7 +27,6 @@ resource "oci_database_autonomous_database" "test_autonomous_database" {
     db_name = "${var.autonomous_database_db_name}"
 
     #Optional
-    defined_tags = {"Operations.CostCenter"= "42"}
     display_name = "${var.autonomous_database_display_name}"
     freeform_tags = {"Department"= "Finance"}
     license_model = "${var.autonomous_database_license_model}"
