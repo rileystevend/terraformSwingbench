@@ -26,8 +26,7 @@ resource "oci_database_autonomous_database" "test_autonomous_database" {
     data_storage_size_in_tbs = "${var.autonomous_database_data_storage_size_in_tbs}"
     db_name = "${var.autonomous_database_db_name}"
 
-    #Optional
+    # #Optional
     display_name = "${var.autonomous_database_display_name}"
-    freeform_tags = {"Department"= "Finance"}
-    license_model = "${var.autonomous_database_license_model}"
+    # license_model = "${var.autonomous_database_license_model}"
 }
