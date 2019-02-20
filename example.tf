@@ -30,7 +30,7 @@ resource "oci_database_autonomous_database" "test_autonomous_database" {
     # license_model = "${var.autonomous_database_license_model}"
 }
 
-#############################################
+################## compute instance ###########################
 
 resource "oci_core_instance" "test_instance" {
     #Required
