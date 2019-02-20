@@ -1,4 +1,3 @@
-//hey!
 # Configure the Oracle Cloud Infrastructure provider with an API Key
 provider "oci" {
   tenancy_ocid = "${var.tenancy_ocid}"
